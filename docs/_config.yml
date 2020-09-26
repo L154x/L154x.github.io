@@ -32,9 +32,34 @@ plugins:
 
 markdown: kramdown
 
+header-pages:
+  - topics.html
+  - about.md
+
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+
+collections:
+  topics:
+    output: true
+
+
+defaults:
+  - scope:
+      path: ""
+      type: "topics"
+    values:
+      layout: "topic" 
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
