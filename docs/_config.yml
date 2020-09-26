@@ -20,8 +20,7 @@
 
 title: L154s 8L06
 email: l154@dev.com
-description: >- # this means to ignore newlines until "baseurl:"
-	Welcome to my blog. This is where I share my notes and interesting findings with the world. Or shout it into the nothingness, depending on your point of view.
+description: Welcome to my blog. This is where I share my notes and interesting findings with the world. Or shout it into the nothingness, depending on your point of view.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  l154x
